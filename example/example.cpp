@@ -10,7 +10,7 @@ int main() {
             cout << row.get_double_at(1) << endl;
         }
     } catch(const char* s) {
-        cout << "Error: " << s <<endl;
+        cout << "Error: " << s << endl;
         return -1;
     }
     return 0;
